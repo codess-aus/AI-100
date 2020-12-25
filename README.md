@@ -63,10 +63,20 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [What is the Bot Framework SDK?](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0) | Select the software, services, and storage required to support a solution | Step |   
 | [Create a bot with Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0) | Select the software, services, and storage required to support a solution | Step |  
 | [What is Computer Vision?](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/overview) | Select the software, services, and storage required to support a solution | Step |   
-| [Resource](blah) | Topic | Step |  
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |  
-| [Resource](blah) | Topic | Step |   
+| [What is Azure Service Bus?](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview) | Select the software, services, and storage required to support a solution | Step |  
+| [Welcome to Azure Stream Analytics](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction) | Select the software, services, and storage required to support a solution | Step |  
+| [Overview of Azure Service Fabric](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-overview) | Select the software, services, and storage required to support a solution | Step |  
+| [Connecting IoT Devices to Azure: IoT Hub and Event Hubs](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-compare-event-hubs) | Select the software, services, and storage required to support a solution | Step |  
+| [Welcome to Azure Stream Analytics](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction) | Select the software, services, and storage required to support a solution | Step |  
+| [Azure Event Hubs — A big data streaming platform and event ingestion service](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-about) | Select the software, services, and storage required to support a solution | Step |   
+| [What is Azure IoT Hub?](https://docs.microsoft.com/en-us/azure/iot-hub/about-iot-hub) | Select the software, services, and storage required to support a solution | Step |  
+| [What is Azure Machine Learning?](https://docs.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-ml) | Select the software, services, and storage required to support a solutionc | Step |
+| [Secure access to a key vault](https://docs.microsoft.com/en-us/azure/key-vault/general/secure-your-key-vault) | Map security requirements to tools, technologies, and processes | Step |   
+| [Symmetric Keys](https://docs.microsoft.com/en-us/windows/win32/seccrypto/symmetric-keys) | Map security requirements to tools, technologies, and processes | Step |   
+| [Asymmetric Keys](https://docs.microsoft.com/en-us/windows/win32/seccrypto/public-private-key-pairs) | Map security requirements to tools, technologies, and processes | Step |   
+| [Manage secrets in your server apps with Azure Key Vault](https://docs.microsoft.com/en-us/learn/modules/manage-secrets-with-azure-key-vault/) | Map security requirements to tools, technologies, and processes | Step |   
+| [Safe storage of app secrets in development in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-3.0&tabs=windows) | Map security requirements to tools, technologies, and processes | Step |  
+| [Azure Key Vault basic concepts](https://docs.microsoft.com/en-us/azure/key-vault/general/basic-concepts) | Map security requirements to tools, technologies, and processes | Step |  
 | [Resource](blah) | Topic | Step |  
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |  
