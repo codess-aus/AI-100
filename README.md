@@ -36,12 +36,25 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [What is Azure role-based access control (Azure RBAC)?](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) | Map security requirements to tools, technologies, and processes |  |  |
 | [Azure built-in roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles) | Map security requirements to tools, technologies, and processes |  |
 | [Grant limited access to Azure Storage resources using shared access signatures (SAS)](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview) | Map security requirements to tools, technologies, and processes |  |
+| [Welcome to Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction) | Select the software, services, and storage required to support a solution | Step |   
+| [What is Azure Databricks?](https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks) | Select the software, services, and storage required to support a solution | Step |   
+| [What is Azure Data Lake Storage Gen1?](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-overview) | Select the software, services, and storage required to support a solution | Step |   
+| [Log Analytics tutorial](https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/log-analytics-tutorial) | Select the software, services, and storage required to support a solution | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |  
 | [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |  
 | [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |  
 | [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |  
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |  
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |  
+
 
 
 ## Design AI Solutions (40-45%)
