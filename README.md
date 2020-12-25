@@ -103,7 +103,9 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Score Model](https://docs.microsoft.com/en-us/azure/machine-learning/studio-module-reference/score-model) | Implement an AI workflow | Makes predictions from a classification or regression model |   
 | [Create R Model](https://docs.microsoft.com/en-us/azure/machine-learning/studio-module-reference/create-r-model) | Implement an AI workflow | Requires you to write R scrips |   
 | [Train Model](https://docs.microsoft.com/en-us/azure/machine-learning/studio-module-reference/train-model) | Implement an AI workflow | Train a classification or regression model |   
-| [Resource](blah) | Implement an AI workflow | Step |   
+| [Monitor and collect data from ML web service endpoints](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-app-insights) | Monitor and evaluate the AI environment | Step |   
+| [Enable logging in ML training runs](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-track-experiments) | Monitor and evaluate the AI environment | Step |   
+| [Collect data from models in production](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-data-collection) | Monitor and evaluate the AI environment | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
