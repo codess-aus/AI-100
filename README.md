@@ -82,7 +82,7 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [What are Azure Cognitive Services?](https://docs.microsoft.com/en-us/azure/cognitive-services/what-are-cognitive-services) | Design solutions that implement the Microsoft Bot Framework | Step |  
 | [Connect a bot to Web Chat](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-webchat?view=azure-bot-service-4.0) | Design solutions that implement the Microsoft Bot Framework | Step |  
 | [Connect a bot to Direct Line](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-directline?view=azure-bot-service-4.0) | Design solutions that implement the Microsoft Bot Framework | Step |  
-| [Resource](blah) | Topic | Step |   
+| [Virtual Machine seriese](https://azure.microsoft.com/en-in/pricing/details/virtual-machines/series/) | Design the compute infrastructure to support a solution | A = Entry Level, D = Databases, F = Gaming, N = GPU eNabled for deep LearNing |  
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
