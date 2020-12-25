@@ -83,7 +83,9 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Connect a bot to Web Chat](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-webchat?view=azure-bot-service-4.0) | Design solutions that implement the Microsoft Bot Framework | Step |  
 | [Connect a bot to Direct Line](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-directline?view=azure-bot-service-4.0) | Design solutions that implement the Microsoft Bot Framework | Step |  
 | [Virtual Machine seriese](https://azure.microsoft.com/en-in/pricing/details/virtual-machines/series/) | Design the compute infrastructure to support a solution | A = Entry Level, D = Databases, F = Gaming, N = GPU eNabled for deep LearNing |  
-| [Resource](blah) | Topic | Step |   
+| [Use GPUs for compute-intensive workloads on Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/gpu-cluster) | Design the compute infrastructure to support a solution | Step | 
+| [Deploy ML models to field-programmable gate arrays (FPGAs) with Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service) | Design the compute infrastructure to support a solution | Model Scoring only |   
+| [Deploy a deep learning model for inference with GPU](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-inferencing-gpus) | Design the compute infrastructure to support a solution | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
