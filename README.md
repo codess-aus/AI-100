@@ -77,7 +77,11 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 
 | Resource | Topic | Step |   
 |------|--------|------------------|
-| [Resource](blah) | Topic | Step |   
+| [Connect a bot to channels](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0) | Design solutions that implement the Microsoft Bot Framework | Step |   
+| [What is Azure Virtual Network?](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview) | Design solutions that implement the Microsoft Bot Framework | Step |  
+| [What are Azure Cognitive Services?](https://docs.microsoft.com/en-us/azure/cognitive-services/what-are-cognitive-services) | Design solutions that implement the Microsoft Bot Framework | Step |  
+| [Connect a bot to Web Chat](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-webchat?view=azure-bot-service-4.0) | Design solutions that implement the Microsoft Bot Framework | Step |  
+| [Connect a bot to Direct Line](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-directline?view=azure-bot-service-4.0) | Design solutions that implement the Microsoft Bot Framework | Step |  
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
