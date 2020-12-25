@@ -99,7 +99,11 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 
 | Resource | Topic | Step |   
 |------|--------|------------------|
-| [Resource](blah) | Topic | Step |   
+| [Evaluate Model](https://docs.microsoft.com/en-us/azure/machine-learning/studio-module-reference/evaluate-model) | Implement an AI workflow | Calculates the difference between predicted and actual RAE |   
+| [Score Model](https://docs.microsoft.com/en-us/azure/machine-learning/studio-module-reference/score-model) | Implement an AI workflow | Makes predictions from a classification or regression model |   
+| [Create R Model](https://docs.microsoft.com/en-us/azure/machine-learning/studio-module-reference/create-r-model) | Implement an AI workflow | Requires you to write R scrips |   
+| [Train Model](https://docs.microsoft.com/en-us/azure/machine-learning/studio-module-reference/train-model) | Implement an AI workflow | Train a classification or regression model |   
+| [Resource](blah) | Implement an AI workflow | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
