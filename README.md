@@ -13,7 +13,7 @@
 
 
 # AI-100
-A Repository created to people prepare for the Microsoft AI-100 Exam. Details are correct for December 2020, as I prepare for an exam in January 2021 - I make no promises for the lifecycle of this repository at this time. 
+A Repository created to help people prepare for the Microsoft AI-100 Exam. Details are correct for December 2020, as I prepare for an exam in January 2021 - I make no promises for the lifecycle of this repository at this time. 
 
 Also, I'd love it if you've found this Project useful - Could you please click on the :star: for this repository.
 
