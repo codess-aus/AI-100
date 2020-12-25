@@ -59,10 +59,10 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [What are Azure Cognitive Services?](https://docs.microsoft.com/en-us/azure/cognitive-services/what-are-cognitive-services) | Recommend Azure Cognitive Services APIs to meet business requirements | Step |   
 | [What is Azure Media Services Video Indexer?](https://docs.microsoft.com/en-us/azure/media-services/video-indexer/video-indexer-overview) |  Recommend Azure Cognitive Services APIs to meet business requirements | Step |   
 | [Choosing a big data storage technology in Azure](https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-storage) | Recommend Azure Cognitive Services APIs to meet business requirements | Step |   
-| [Resource](blah) | Topic | Step |  
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |  
-| [Resource](blah) | Topic | Step |   
+| [Quickstart: Create your first data science experiment in Machine Learning Studio (classic)](https://docs.microsoft.com/en-us/azure/machine-learning/classic/create-experiment) | Select the software, services, and storage required to support a solution | Step |  
+| [What is the Bot Framework SDK?](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0) | Select the software, services, and storage required to support a solution | Step |   
+| [Create a bot with Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0) | Select the software, services, and storage required to support a solution | Step |  
+| [What is Computer Vision?](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/overview) | Select the software, services, and storage required to support a solution | Step |   
 | [Resource](blah) | Topic | Step |  
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |  
