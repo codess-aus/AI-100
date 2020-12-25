@@ -21,12 +21,18 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 
 
 ## Table of Contents
+* [Exam Rubric/Scoring Guide](#exam-rubric)
 * [Analyze solution requirements (25-30%)](#analyze-solution-requirements)
 * [Design AI Solutions (40-45%)](#design-ai-solutions)
 * [Implement and monitor AI solutions (25-30%)](#implemen-and-monitor-AI-solutions)
 
 
 # Resources
+
+## Exam Rubric / Scoring Guide
+
+[Microsoft Certified: Azure AI Engineer Associate –Skills Measured](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VEHf)
+
 
 ## Analyze solution requirements (25-30%)
 
