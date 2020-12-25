@@ -37,7 +37,7 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 
 ## Learning Paths
 | Resource | Topic | Step |   
-|--------------------|---------------------------------|----|
+|--------------------|------------------------|----|
 | [Evaluate text with Azure Cognitive Language Services](https://docs.microsoft.com/en-us/learn/paths/evaluate-text-with-language-services/) | Learn how to use Cognitive Language Services to analyze text, determine intent, detect adult themes, and process natural language input | Step | 
 | [Process and Translate Speech with Azure Cognitive Speech Services](https://docs.microsoft.com/en-us/learn/paths/process-translate-speech-azure-cognitive-speech-services/) | Learn how to implement the Speech services found in Azure Cognitive Services by performing speech-to-text transcription, synthesizing text input to speech, performing speech translation, and implementing speaker recognition in your AI infused applications | Step |  
 | [Create Intelligent Bots with the Azure Bot Service](https://docs.microsoft.com/en-us/learn/paths/create-bots-with-the-azure-bot-service/) | Allowing customers to interact with computer applications in a conversational way using text, graphics, or speech, can be realized using Bots. It may be a simple question and answer dialog, or a sophisticated bot that allows people to interact with services in an intelligent manner using pattern matching, state tracking and artificial intelligence techniques well integrated with existing business services. Learn how to build a chat bot and add intelligence to the Bot by integrating QnA Maker and LUIS | Step |   
