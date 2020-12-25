@@ -86,7 +86,11 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Use GPUs for compute-intensive workloads on Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/gpu-cluster) | Design the compute infrastructure to support a solution | Step | 
 | [Deploy ML models to field-programmable gate arrays (FPGAs) with Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service) | Design the compute infrastructure to support a solution | Model Scoring only |   
 | [Deploy a deep learning model for inference with GPU](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-inferencing-gpus) | Design the compute infrastructure to support a solution | Step |   
-| [Resource](blah) | Topic | Step |   
+| [Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetesh) | Design the compute infrastructure to support a solution | Step |   
+| [Deploy ML models to field-programmable gate arrays (FPGAs) with Azure Machine Learninge](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service) | Design the compute infrastructure to support a solution | Step |   
+| [Deploy models with Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where?tabs=azcli) | Design the compute infrastructure to support a solution | Step |   
+| [Resource](blah) | Design the compute infrastructure to support a solution | Step |   
+| [Resource](blah) | Design the compute infrastructure to support a solution | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 
