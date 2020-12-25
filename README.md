@@ -58,7 +58,7 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Log Analytics tutorial](https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/log-analytics-tutorial) | Select the software, services, and storage required to support a solution | Step |   
 | [What are Azure Cognitive Services?](https://docs.microsoft.com/en-us/azure/cognitive-services/what-are-cognitive-services) | Recommend Azure Cognitive Services APIs to meet business requirements | Step |   
 | [What is Azure Media Services Video Indexer?](https://docs.microsoft.com/en-us/azure/media-services/video-indexer/video-indexer-overview) |  Recommend Azure Cognitive Services APIs to meet business requirements | Step |   
-| [Resource](blah) | Topic | Step |   
+| [Choosing a big data storage technology in Azure](https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-storage) | Recommend Azure Cognitive Services APIs to meet business requirements | Step |   
 | [Resource](blah) | Topic | Step |  
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |  
