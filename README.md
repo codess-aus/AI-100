@@ -50,7 +50,6 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 |------|--------|------------------|
 | [Manage storage account access keys](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal) | Map security requirements to tools, technologies, and processes |  |  
 | [What is Azure role-based access control (Azure RBAC)?](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) | Map security requirements to tools, technologies, and processes |  |  |
-| [Azure built-in roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles) | Map security requirements to tools, technologies, and processes |  |
 | [Grant limited access to Azure Storage resources using shared access signatures (SAS)](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview) | Map security requirements to tools, technologies, and processes |  |
 | [Welcome to Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction) | Select the software, services, and storage required to support a solution | Step |   
 | [What is Azure Databricks?](https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks) | Select the software, services, and storage required to support a solution | Step |   
@@ -64,7 +63,6 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Create a bot with Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0) | Select the software, services, and storage required to support a solution | Step |  
 | [What is Computer Vision?](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/overview) | Select the software, services, and storage required to support a solution | Step |   
 | [What is Azure Service Bus?](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview) | Select the software, services, and storage required to support a solution | Step |  
-| [Welcome to Azure Stream Analytics](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction) | Select the software, services, and storage required to support a solution | Step |  
 | [Overview of Azure Service Fabric](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-overview) | Select the software, services, and storage required to support a solution | Step |  
 | [Connecting IoT Devices to Azure: IoT Hub and Event Hubs](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-compare-event-hubs) | Select the software, services, and storage required to support a solution | Step |  
 | [Welcome to Azure Stream Analytics](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction) | Select the software, services, and storage required to support a solution | Step |  
