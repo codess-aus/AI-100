@@ -155,9 +155,7 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [What is QnA Maker?](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/overview/overview) | Integrate AI services and solution components | Step |   
 | [QnA Maker documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/) | Integrate AI services and solution components | Step |   
 | [Bot channels registration](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&viewFallbackFrom=azure-bot-service-3.0) | Integrate AI services and solution components  | Step |   
-| [Bot analytics](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-analytics?view=azure-bot-service-4.0) | Monitor and evaluate the AI environment
- | Step |   
+| [Bot analytics](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-analytics?view=azure-bot-service-4.0) | Monitor and evaluate the AI environment  | Step |   
 | [Welcome to Azure Stream Analytics](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction) | Monitor and evaluate the AI environment  | Step |   
 | [Enable capturing of events streaming through Azure Event Hubs](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-capture-enable-through-portal) | Monitor and evaluate the AI environment | Step |   
-| [Application Insights keys](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-resources-app-insights-keys?view=azure-bot-service-4.0) | Monitor and evaluate the AI environment
- | Step |
+| [Application Insights keys](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-resources-app-insights-keys?view=azure-bot-service-4.0) | Monitor and evaluate the AI environment | Step |
