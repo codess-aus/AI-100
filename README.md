@@ -77,7 +77,10 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Manage secrets in your server apps with Azure Key Vault](https://docs.microsoft.com/en-us/learn/modules/manage-secrets-with-azure-key-vault/) | Map security requirements to tools, technologies, and processes | Step |   
 | [Safe storage of app secrets in development in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-3.0&tabs=windows) | Map security requirements to tools, technologies, and processes | Step |  
 | [Azure Key Vault basic concepts](https://docs.microsoft.com/en-us/azure/key-vault/general/basic-concepts) | Map security requirements to tools, technologies, and processes | Step |  
-| [Resource](blah) | Topic | Step |  
+| [Azure built-in roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles) | Map security requirements to tools, technologies, and processes | Step |  
+| [Authenticate requests to Azure Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/authentication?tabs=powershell) | Map security requirements to tools, technologies, and processes | Step |  
+| [Compliance in Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-compliance?view=azure-bot-service-4.0) | Map security requirements to tools, technologies, and processes | Step |  
+| [Microsoft’s GDPR Commitments to Customers of our Generally Available Enterprise Software Products](https://docs.microsoft.com/en-us/legal/gdpr) | Map security requirements to tools, technologies, and processes | Step |  
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |  
 
