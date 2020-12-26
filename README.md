@@ -96,10 +96,8 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Connect a bot to Direct Line](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-directline?view=azure-bot-service-4.0) | Design solutions that implement the Microsoft Bot Framework | Step |  
 | [Virtual Machine seriese](https://azure.microsoft.com/en-in/pricing/details/virtual-machines/series/) | Design the compute infrastructure to support a solution | A = Entry Level, D = Databases, F = Gaming, N = GPU eNabled for deep LearNing |  
 | [Use GPUs for compute-intensive workloads on Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/gpu-cluster) | Design the compute infrastructure to support a solution | Step | 
-| [Deploy ML models to field-programmable gate arrays (FPGAs) with Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service) | Design the compute infrastructure to support a solution | Model Scoring only |   
 | [Deploy a deep learning model for inference with GPU](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-inferencing-gpus) | Design the compute infrastructure to support a solution | Step |   
 | [Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetesh) | Design the compute infrastructure to support a solution | Step |   
-| [Deploy ML models to field-programmable gate arrays (FPGAs) with Azure Machine Learninge](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service) | Design the compute infrastructure to support a solution | Fast, Flexible, Configurable, Fast Parrellel Processing |   
 | [Deploy models with Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where?tabs=azcli) | Design the compute infrastructure to support a solution | Step |   
 | [Connecting IoT Devices to Azure: IoT Hub and Event Hubs](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-compare-event-hubs) | topic | Step |   
 | [Introduction to the core Azure Storage services](https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction) | Design the compute infrastructure to support a solution | Step |   
@@ -128,21 +126,15 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [List entity](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/reference-entity-list?tabs=V2) | Topic | Step |   
 | [Simple Entity](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/reference-entity-simple?tabs=V2) | Topic | Step |   
 | [Extract data with entities](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-concept-entity-types) | Topic | Step |   
-| [Quickstart: Create a new app in the LUIS portal](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/get-started-portal-build-app) | Topic | Step |   
 | [Add entities to extract data](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-how-to-add-entities) | Topic | Tutorial - Get exact text matched data from an utterance |   
-| [Virtual Machine series](https://azure.microsoft.com/en-in/pricing/details/virtual-machines/series/) | Topic | Step |   
 | [Deploy ML models to field-programmable gate arrays (FPGAs) with Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service) | Topic | Step |   
-| [Use GPUs for compute-intensive workloads on Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/gpu-cluster) | Topic | Step |   
-| [Deploy a deep learning model for inference with GPU](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-inferencing-gpus) | Topic | Step |   
-| [Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes) | Topic | Step |   
-| [Deploy models with Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where?tabs=azcli) | Topic | Step |   
 | [Authenticate requests to Azure Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/authentication?tabs=powershell) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
+| [An overview of Azure SQL Database and SQL Managed Instance security capabilities](https://docs.microsoft.com/en-us/azure/azure-sql/database/security-overview) | Topic | Step |   
+| [Always Encrypted](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15) | Topic | Step |   
+| [Row-Level Security](https://docs.microsoft.com/en-us/sql/relational-databases/security/row-level-security?view=sql-server-ver15) | Topic | Step |   
+| [Extensible Key Management Using Azure Key Vault (SQL Server)](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/extensible-key-management-using-azure-key-vault-sql-server?view=sql-server-ver15) | Topic | Step |   
+| [Azure SQL Transparent Data Encryption with customer-managed key](https://docs.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-byok-overview) | Topic | Step |   
+| [Transparent Data Encryption (TDE)](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver15) | Topic | Step |   
 
 
 
