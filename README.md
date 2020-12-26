@@ -131,12 +131,12 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Quickstart: Create a new app in the LUIS portal](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/get-started-portal-build-app) | Topic | Step |   
 | [Add entities to extract data](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-how-to-add-entities) | Topic | Tutorial - Get exact text matched data from an utterance |   
 | [Virtual Machine series](https://azure.microsoft.com/en-in/pricing/details/virtual-machines/series/) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
+| [Deploy ML models to field-programmable gate arrays (FPGAs) with Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service) | Topic | Step |   
+| [Use GPUs for compute-intensive workloads on Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/gpu-cluster) | Topic | Step |   
+| [Deploy a deep learning model for inference with GPU](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-inferencing-gpus) | Topic | Step |   
+| [Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes) | Topic | Step |   
+| [Deploy models with Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where?tabs=azcli) | Topic | Step |   
+| [Authenticate requests to Azure Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/authentication?tabs=powershell) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
