@@ -130,7 +130,7 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Extract data with entities](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-concept-entity-types) | Topic | Step |   
 | [Quickstart: Create a new app in the LUIS portal](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/get-started-portal-build-app) | Topic | Step |   
 | [Add entities to extract data](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-how-to-add-entities) | Topic | Tutorial - Get exact text matched data from an utterance |   
-| [Resource](blah) | Topic | Step |   
+| [Virtual Machine series](https://azure.microsoft.com/en-in/pricing/details/virtual-machines/series/) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
