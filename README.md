@@ -81,9 +81,16 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Authenticate requests to Azure Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/authentication?tabs=powershell) | Map security requirements to tools, technologies, and processes | Step |  
 | [Compliance in Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-compliance?view=azure-bot-service-4.0) | Map security requirements to tools, technologies, and processes | Step |  
 | [Microsoft’s GDPR Commitments to Customers of our Generally Available Enterprise Software Products](https://docs.microsoft.com/en-us/legal/gdpr) | Map security requirements to tools, technologies, and processes | Step |  
+| [Overview of the Face API](https://docs.microsoft.com/en-us/learn/modules/identify-faces-with-computer-vision/2-overview-of-the-face-api) | Recommend Azure Cognitive Services APIs to meet business requirements | Step |   
+| [Introduction to the core Azure Storage services](https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction) | Select the software, services, and storage required to support a solution | Step |  
 | [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |  
-
+| [Resource](blah) | Topic | Step | 
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step | 
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step | 
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step | 
 
 
 ## Design AI Solutions (40-45%)
