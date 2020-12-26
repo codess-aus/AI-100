@@ -116,13 +116,13 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Integration runtime in Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime) | Topic | Step |   
 | [Run background tasks with WebJobs in Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/webjobs-create) | Topic | Step |   
 | [What is Azure Logic Apps?](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
+| [What is Computer Vision?](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/overview) | Topic | Step |   
+| [What is Azure Content Moderator?](https://docs.microsoft.com/en-us/azure/cognitive-services/content-moderator/overview) | Topic | Step |   
+| [Quickstart: Build a classifier with the Custom Vision website](https://docs.microsoft.com/en-us/azure/cognitive-services/Custom-Vision-Service/getting-started-build-a-classifier) | Topic | Step |   
+| [Understand inputs for Azure Stream Analytics](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-add-inputs) | Topic | Step |   
+| [Azure Stream Analytics solution patterns](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-solution-patterns) | Topic | Step |   
+| [Welcome to Azure Stream Analytics](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction) | Topic | Step |   
+| [Quickstart: Create a new app in the LUIS portal](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/get-started-portal-build-app) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
