@@ -123,10 +123,27 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Azure Stream Analytics solution patterns](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-solution-patterns) | Topic | Step |   
 | [Welcome to Azure Stream Analytics](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction) | Topic | Step |   
 | [Quickstart: Create a new app in the LUIS portal](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/get-started-portal-build-app) | Topic | Step |   
+| [Regular expression entity](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/reference-entity-regular-expression?tabs=V2) | Topic | Step |   
+| [Composite entity](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/reference-entity-composite?tabs=V2) | Topic | Step |   
+| [List entity](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/reference-entity-list?tabs=V2) | Topic | Step |   
+| [Simple Entity](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/reference-entity-simple?tabs=V2) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+
 
 
 ## Implement and monitor AI solutions (25-30%)
