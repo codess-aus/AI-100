@@ -127,9 +127,9 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Composite entity](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/reference-entity-composite?tabs=V2) | Topic | Step |   
 | [List entity](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/reference-entity-list?tabs=V2) | Topic | Step |   
 | [Simple Entity](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/reference-entity-simple?tabs=V2) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
+| [Extract data with entities](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-concept-entity-types) | Topic | Step |   
+| [Quickstart: Create a new app in the LUIS portal](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/get-started-portal-build-app) | Topic | Step |   
+| [Add entities to extract data](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-how-to-add-entities) | Topic | Tutorial - Get exact text matched data from an utterance |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
