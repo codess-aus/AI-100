@@ -149,8 +149,12 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Monitor and collect data from ML web service endpoints](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-app-insights) | Monitor and evaluate the AI environment | Step |   
 | [Enable logging in ML training runs](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-track-experiments) | Monitor and evaluate the AI environment | Step |   
 | [Collect data from models in production](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-data-collection) | Monitor and evaluate the AI environment | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
-| [Resource](blah) | Topic | Step |   
+| [Azure Monitor for containers overview](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/container-insights-overview) | Topic | Step |   
+| [How to use Azure.Search.Documents in a C# .NET Application](https://docs.microsoft.com/en-us/azure/search/search-howto-dotnet-sdk) | Topic | Step |   
+| [What is QnA Maker?](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/overview/overview) | Topic | Step |   
+| [QnA Maker documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/) | Topic | Step |   
+| [Bot channels registration](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&viewFallbackFrom=azure-bot-service-3.0) | Topic | Step |   
+| [Bot analytics](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-analytics?view=azure-bot-service-4.0) | Topic | Step |   
+| [Welcome to Azure Stream Analytics](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction) | Topic | Step |   
+| [Enable capturing of events streaming through Azure Event Hubs](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-capture-enable-through-portal) | Topic | Step |   
+| [Application Insights keys](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-resources-app-insights-keys?view=azure-bot-service-4.0) | Topic | Step |
