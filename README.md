@@ -101,8 +101,30 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetesh) | Design the compute infrastructure to support a solution | Step |   
 | [Deploy ML models to field-programmable gate arrays (FPGAs) with Azure Machine Learninge](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service) | Design the compute infrastructure to support a solution | Fast, Flexible, Configurable, Fast Parrellel Processing |   
 | [Deploy models with Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where?tabs=azcli) | Design the compute infrastructure to support a solution | Step |   
-| [Resource](blah) | Design the compute infrastructure to support a solution | Step |   
-| [Resource](blah) | Design the compute infrastructure to support a solution | Step |   
+| [Connecting IoT Devices to Azure: IoT Hub and Event Hubs](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-compare-event-hubs) | topic | Step |   
+| [Introduction to the core Azure Storage services](https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction) | Design the compute infrastructure to support a solution | Step |   
+| [What is Azure Data Lake Storage Gen1?](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-overview) | Topic | Step |   
+| [What is Power BI?](https://docs.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview) | Topic | Step |   
+| [What is Azure IoT Hub?](https://docs.microsoft.com/en-us/azure/iot-hub/about-iot-hub) | Topic | Step |   
+| [Log Analytics tutorial](https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/log-analytics-tutorial) | Topic | Step |   
+| [What is Azure Databricks?](https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks) | Topic | Step |   
+| [Outputs from Azure Stream Analytics](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-define-outputs) | Topic | Step |   
+| [What is Azure Data Factory?](https://docs.microsoft.com/en-us/azure/data-factory/introduction) | Topic | Step |   
+| [What is the Text Analytics API?](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview) | Topic | Step |   
+| [What is Personalizer?](https://docs.microsoft.com/en-us/azure/cognitive-services/personalizer/what-is-personalizer) | Topic | Step |   
+| [What is Language Understanding (LUIS)?](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/what-is-luis) | Topic | Step |   
+| [Integration runtime in Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime) | Topic | Step |   
+| [Run background tasks with WebJobs in Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/webjobs-create) | Topic | Step |   
+| [What is Azure Logic Apps?](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
+| [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 | [Resource](blah) | Topic | Step |   
 
