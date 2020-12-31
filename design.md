@@ -74,6 +74,17 @@ Data Factory allows you to create big data pipelines to copy data between source
 
 ## 3. Design solutions that implement the Microsoft Bot Framework
 
+Example: You are designing a bot that uses Azure Bot Service and Azure Bot Framework. The bot will be integrated into your company's website. The bot must allow users to enter freeform feedback regarding their like or dislike of a product. The bot must then interpret the user's feedback. If the feedback is negative, the bot 
+must display one set of options. If the feedback is positive, the bot must display a different set of options. 
+
+Cognitive Services Text Analytics can extract key phrases from text and determine positive or negative sentiment, returning a sentiment result between O and 1, with O being negative and 1 being positive.You can use the returned values to determine the next options to provide to the user.
+
+Cognitive Services Personalizer allows you to present the best experience to users by using machine learning models that analyze real-time behavior. It will choose which video to play next, like YouTube, based on what you play and what you skip.
+
+LUIS allows applications to understand what a user wants when it is expressed in his or her own words. It uses custom machine learning intelligence to predict natural language meaning and return relevant information. 
+
+
 ## 4. Design the compute infrastructure to support a solution
 
 ## 5. Design for data governance, compliance, integrity, and security
+
