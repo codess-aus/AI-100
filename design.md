@@ -70,6 +70,26 @@ Function, Data Lake, and Power Bl as outputs.
 You should not use Databricks or Data Factory. Neither of these are supported as Stream Analytics output. 
 Data Factory allows you to create big data pipelines to copy data between sources and destinations. 
 
+Example: You are designing an Azure Data Factory pipeline that must perform the following tasks: 
+
+1 . Copy images from on-premises file servers to blob storage accounts.
+2. Run several Cognitive Services APIs in a workflow.
+
+You need to choose the Data Factory integration runtime type for the first task and the Azure resource to use for the second task. Your solution must not require you to create an Azure virtual network (VNet).
+
+Self-hosted IR. This is required when you need to copy data from on-premises file servers to Azure.
+
+You should use a Logic App to run several Cognitive Services APIs in a workflow. A Logic App allows you to create workflows graphically. 
+
+You should not use the Azure IR. This IR allows you to copy data between data sources in Azure. It does not support on-premises files. 
+
+You should not use the Azure SSIS IR. This IR allows you to use SSIS packages to copy data between data sources in Azure. It does not support on-premises files unless you connect an Azure VNet to an on-
+premises network.
+
+You should not use a WebJob to run several Cognitive Services APIs in a workflow. A WebJob is code that runs in the context of an Azure web application. It can be run on a schedule or via a trigger. It does not allow you to create graphical workflows.
+
+You should not use Databricks to run several Cognitive Services APIs in a workflow. Databricks is a Sparks-based analytics platform that allows you to read data from a variety of sources and write code to transform and analyze the data. It does not allow you to create graphical workflows.
+
 ## 2. Design solutions that use Cognitive Services
 
 ## 3. Design solutions that implement the Microsoft Bot Framework
