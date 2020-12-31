@@ -92,6 +92,24 @@ You should not use Databricks to run several Cognitive Services APIs in a workfl
 
 ## 2. Design solutions that use Cognitive Services
 
+Example: You are designing a solution that must determine whether images contain racy content. You create a Cognitive Services endpoint named sample. You have the following URL: 
+https://eastus.api.cognitive.microsoft.com/[placeholder l]/[placeholder 2]/v1.O/Processlmage/[placeholder 3]
+
+You need to replace the [placeholders] in the URL with the correct values for returning information about racy content. How should you construct the URL?
+
+You should use the following URL: 
+https://eastus.api.cognitive.microsoft.com/contentmoderator/moderate/v1.O/Processlmage/evaluate 
+
+The first placeholder represents the name of the Cognitive Services service. In this case, you should use the Content Moderator service (contentmoderator), which allows you to detect racy or adult content in images and text. 
+
+The second placeholder represents the name of the specific API. The image moderation API (moderate/v1.O/Processlmage) allows you to detect racy content in images. 
+
+The final placeholder represents the specific operation to invoke in the API. The Evaluate operation (evaluate) analyzes the image for racy content and returns an appropriate response.
+
+Alt: 
+You could specify vision as the value of the first placeholder. This represents the Computer Vision service. You must then use the Analyze API (analyze), as the 2nd placeholder.
+
+
 ## 3. Design solutions that implement the Microsoft Bot Framework
 
 Example: You are designing a bot that uses Azure Bot Service and Azure Bot Framework. The bot will be integrated into your company's website. The bot must allow users to enter freeform feedback regarding their like or dislike of a product. The bot must then interpret the user's feedback. If the feedback is negative, the bot 
