@@ -46,6 +46,7 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 
 
 ## Analyze solution requirements (25-30%)
+[My Notes on Analyze](https://github.com/msandfor/AI-100/blob/main/Analyze.md)
 
 | Resource | Topic | Step |   
 |------|--------|------------------|
@@ -84,13 +85,8 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 | [Introduction to the core Azure Storage services](https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction) | Select the software, services, and storage required to support a solution | Step |  
 | [What is Apache Hadoop in Azure HDInsight?](https://docs.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-introduction) | Select the software, services, and storage required to support a solution | Step |   
 
-
-
-
-
-
-
 ## Design AI Solutions (40-45%)
+[My Notes on Design](https://github.com/msandfor/AI-100/blob/main/design.md)
 
 | Resource | Topic | Step |   
 |------|--------|------------------|
