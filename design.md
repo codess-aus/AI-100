@@ -109,6 +109,15 @@ The final placeholder represents the specific operation to invoke in the API. Th
 Alt: 
 You could specify vision as the value of the first placeholder. This represents the Computer Vision service. You must then use the Analyze API (analyze), as the 2nd placeholder.
 
+### Cognitive Services Custom Vision
+After training has completed, the model's performance is estimated and displayed. The Custom Vision Service uses the images that you submitted for training to calculate precision and recall, using a process called k-fold cross validation. Precision and recall are two different measurements of the effectiveness of a classifier:
+
+<p><img align="center" src="https://github.com/msandfor/AI-100/blob/main/assets/unpublished-iteration.png" alt="image classifier"></p>
+<p align="center"></p>
+
+Precision indicates the fraction of identified classifications that were correct. For example, if the model identified 100 images as dogs, and 99 of them were actually of dogs, then the precision would be 99%.
+
+Recall indicates the fraction of actual classifications that were correctly identified. For example, if there were actually 100 images of apples, and the model identified 80 as apples, the recall would be 80%.
 
 ## 3. Design solutions that implement the Microsoft Bot Framework
 
