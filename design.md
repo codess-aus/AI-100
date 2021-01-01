@@ -137,6 +137,12 @@ Cognitive Services Personalizer allows you to present the best experience to use
 
 LUIS allows applications to understand what a user wants when it is expressed in his or her own words. It uses custom machine learning intelligence to predict natural language meaning and return relevant information. 
 
+For LUIS You should create one intent and many utterancess. A LUIS intent specifies a function the user wants to perform. It is a way of organizing text entered by the user in the bot application. Each utterance represents a different way the user can perform the same 
+function. 
+
+You should not create many intents. An intent should specify a single function. Therefore, you should only have one intent, and add each question as an utterance. 
+
+You should not create only one utterance. An utterance represents a different way the user can perform the same function. Therefore you should create many utterances per intent. 
 
 ## 4. Design the compute infrastructure to support a solution
 
