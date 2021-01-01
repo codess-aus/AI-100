@@ -144,6 +144,14 @@ You should not create many intents. An intent should specify a single function. 
 
 You should not create only one utterance. An utterance represents a different way the user can perform the same function. Therefore you should create many utterances per intent. 
 
+Regex entity: This represents an entity that uses a regular expression. A regular expression allows you to mark the part of text that represents, for example, the flight number. This allows the runtime prediction service to capture it from the rest of the text.
+
+A List entity: This requires that you list all the possible flight numbers during design-time. Where flight numbers vary, and there are over 50,000 flight numbers per day this becomes an impossible task. 
+
+Composite entity: This requires that you create child entities. This is useful for an entity that has multiple parts.
+
+Simple entity. This entity type cannot identify flight numbers.
+
 ## 4. Design the compute infrastructure to support a solution
 
 ## 5. Design for data governance, compliance, integrity, and security
