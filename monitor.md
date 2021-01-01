@@ -103,3 +103,62 @@ You should not create a Machine Learning experiment and use the Train Model modu
 You should not create a Stream Analytics job that uses SQL-based queries to access shopper, message, and channel data. Stream Analytics is a real-time analytics and event processing service that analyzes high volumes of streaming data.
 
 You should not create an Event Hubs resource and enable Capture. Event Hubs allows you to process fast streaming events in real-time from applications, websites, and IOT devices. Enabling Capture allows you to automatically send those events to a Blob storage account or a Data Lake storage account.
+
+You implement a pipeline for an Azure Machine Learning experiment. The purpose of the experiment is to predict test scores. You need to determine the relative difference between the actual and the predicted values. Your solution must not require you to write code. Which module should you use to visualize and view the difference?
+
+You should use the Evaluate Model module. This module calculates metrics for the differences between the predicted and actual values. One of these metrics is relative absolute error (RAE), which is the relative difference between the predicted and actual values.
+
+There are three ways to use the Evaluate Model module:
+
+* Generate scores over your training data, and evaluate the model based on these scores
+* Generate scores on the model, but compare those scores to scores on a reserved testing set
+* Compare scores for two different but related models, using the same set of data
+
+You should not use the Train Model module. Its purpose is to train a classification or regression model. Training uses specific algorithms to make predicted values based on an input data set. 
+
+You should not use the Create R Model module. This module requires you to write R scripts to perform training and scoring (prediction).
+
+You should not use the Score Model module. This module makes predictions from a trained classification or regression model.
+
+After you have generated a set of scores using Score Model:
+
+* To generate a set of metrics used for evaluating the model’s accuracy (performance). you can connect the scored dataset to Evaluate Model,
+* Right-click the module and select Visualize to see the a sample of the results.
+* Save the results to a dataset.
+
+The score, or predicted value, can be in many different formats, depending on the model and your input data:
+
+* For classification models, Score Model outputs a predicted value for the class, as well as the probability of the predicted value.
+* For regression models, Score Model generates just the predicted numeric value.
+* For image classification models, the score might be the class of object in the image, or a Boolean indicating whether a particular feature was found.
+
+You deploy a Machine Learning model to an Azure Kubernetes Service (Al(S) cluster. You modify the score.py file with the following code:
+
+from azureml.core.webservice import Webservice
+service= Webservice(ws, "sample-ml-service");
+
+You need to complete the code to log only custom traces.
+Which code segment should you use?
+
+service.update(collect model data=False);
+service.update(enable_app_insights=True);
+service.deploy_configuration(collect model data=True);
+service.deploy_configuration(collect model data=True, enable_app_insights=False);
+
+You should use the following code segment:
+
+service.update(enable_app_insights=True);
+
+This code enables Application Insights. This service is a feature of Azure Monitor that allows websites, applications, and other resources to send telemetry data to the cloud in real time.
+
+You should not use the following code segment:
+service.deploy_configuration(collect_model_data=True, enable_app_insights=False);
+The deploy_configuration method creates a deployment configuration. The problem with this code is that Application Insights is disabled (enable_app_insights=False). This prevents the service from logging custom traces.
+
+You should not use the following code segment:
+service.update(collect_model data-False);
+This code disables model collection, which is correct because only custom traces should be logged. However, it does not specify a value for enable_app_insights, which causes the default value of False to be used. This effectively disables Application Insights.
+
+You should not use the following code segment:
+service.deploy_configuration(collect_model_data=True);
+This code enables model collection, which causes data other than custom traces to be logged. It also does not specify a value for enable_app_insights, which causes the default value of False to be used. This effectively disables Application Insights.
