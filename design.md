@@ -109,6 +109,13 @@ The final placeholder represents the specific operation to invoke in the API. Th
 Alt: 
 You could specify vision as the value of the first placeholder. This represents the Computer Vision service. You must then use the Analyze API (analyze), as the 2nd placeholder.
 
+You design an Al workflow that uses Azure Stream Analytics to detect fraudulent activity of financial transactions. 
+You need to recommend an appropriate input for the data stream. 
+
+Event Hub: Stream Analytics supports a number of sources for input data, including Event Hub, IOT Hub, and blob storage.
+
+You should not use Data Lake, SQL Database, or Cosmos DB as an input source. None of these resources are supported as Stream Analytics stream input sources. SQL Database is supported as a reference data source. All three are supported as output sources.
+
 ### Cognitive Services Custom Vision
 After training has completed, the model's performance is estimated and displayed. The Custom Vision Service uses the images that you submitted for training to calculate precision and recall, using a process called k-fold cross validation. Precision and recall are two different measurements of the effectiveness of a classifier:
 
