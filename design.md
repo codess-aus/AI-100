@@ -223,12 +223,33 @@ and databases. It is not ideal for deep learning models.
 * F series: This is a compute-optimized VM with a higher compute-
 to-memory ratio. It is ideal for batch processing and gaming, but not for deep learning models.
 * FPGA: This VM provides fast performance, and it is flexible and
-configurable as your needs change over time. It is great for parallel machine learning training. It is faster than GPU. However, it only supports machine learning inference (model scoring) workloads.
+configurable as your needs change over time. It is great for parallel machine learning training. It is faster than GPU. Supoorts AKS but not ACI
+
+FPGAs contain an array of programmable logic blocks, and a hierarchy of reconfigurable interconnects. The interconnects allow these blocks to be configured in various ways after manufacturing. Compared to other chips, FPGAs provide a combination of programmability and performance.
+
+FPGAs make it possible to achieve low latency for real-time inference (or model scoring) requests. Asynchronous requests (batching) aren't needed. Batching can cause latency, because more data needs to be processed. Implementations of neural processing units don't require batching; therefore the latency can be many times lower, compared to CPU and GPU processors.
+
+You can reconfigure FPGAs for different types of machine learning models. This flexibility makes it easier to accelerate the applications based on the most optimal numerical precision and memory model being used. Because FPGAs are reconfigurable, you can stay current with the requirements of rapidly changing AI algorithms.
+
+Microsoft Azure is the world's largest cloud investment in FPGAs. Microsoft uses FPGAs for deep neural networks (DNN) evaluation, Bing search ranking, and software defined networking (SDN) acceleration to reduce latency, while freeing CPUs for other tasks.
+
+FPGAs on Azure are based on Intel's FPGA devices, which data scientists and developers use to accelerate real-time AI calculations. This FPGA-enabled architecture offers performance, flexibility, and scale, and is available on Azure.
+
+Azure FPGAs are integrated with Azure Machine Learning. Azure can parallelize pre-trained DNN across FPGAs to scale out your service. The DNNs can be pre-trained, as a deep featurizer for transfer learning, or fine-tuned with updated weights.
+
 * ASIC: This VM providers faster performance than FPGA, but it is 
 not flexible and configurable. Not supported by AKS.
 GPU: This VM provides slower performance than FPGA. It is intended for fast parallel image rendering. This processor is popular for Al computations and parallel image rendering.
 * CPU: This VM provides the slowest performance. It is intended for
 general purpose processing, not graphics processing.
+
+AKS: This service allows you to deploy a Kubernetes cluster to the cloud. A Kubernetes cluster consists of nodes and pods. A node is either a virtual machine (VM) or physical machine. A pod is an application-specific logical host that contains different application containers, each with its own IP address and port space. AKS supports real-time inference, or model scoring. It also supports Graphical Processing Unit (GPU) and FGPA.
+
+FGPA processors are flexible and configurable over time, and they are faster than GPU. GPI-J processors are good for fast parallel image rendering.
+
+ACI doe snot support FGPA. It is useful for testing and debugging.
+
+You should not use Machine Learning Compute. This service allows you to run batch scoring on a serverless compute infrastructure. It does not support FPGA or real-time scoring.
 
 
 
