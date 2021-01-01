@@ -116,6 +116,11 @@ Event Hub: Stream Analytics supports a number of sources for input data, includi
 
 You should not use Data Lake, SQL Database, or Cosmos DB as an input source. None of these resources are supported as Stream Analytics stream input sources. SQL Database is supported as a reference data source. All three are supported as output sources.
 
+Cognitive Services supports single-key authentication for multiple APIs including Computer Vision, Language, Search and Speech. You'd need a separate authentication key for each of Anomaly Detector, Content Moderator, Personalizer and Custom Vision. All the Vision API's except Custom support a single authentication key.
+
+Allow a client app to make calls to the API for CS Translator Text:
+Pass a subscription key as the value of the Ocp-Apim-Subscription-Key HTTP header with each API request. This is how Cognitive Services authenticates client requests. When you create a Cognitive Services resource, two subscription keys are generated. You can regenerate each of these keys as you see fit. 
+
 ### Cognitive Services Custom Vision
 After training has completed, the model's performance is estimated and displayed. The Custom Vision Service uses the images that you submitted for training to calculate precision and recall, using a process called k-fold cross validation. Precision and recall are two different measurements of the effectiveness of a classifier:
 
@@ -243,15 +248,14 @@ GPU: This VM provides slower performance than FPGA. It is intended for fast para
 * CPU: This VM provides the slowest performance. It is intended for
 general purpose processing, not graphics processing.
 
-AKS: This service allows you to deploy a Kubernetes cluster to the cloud. A Kubernetes cluster consists of nodes and pods. A node is either a virtual machine (VM) or physical machine. A pod is an application-specific logical host that contains different application containers, each with its own IP address and port space. AKS supports real-time inference, or model scoring. It also supports Graphical Processing Unit (GPU) and FGPA.
+AKS: This service allows you to deploy a Kubernetes cluster to the cloud. A Kubernetes cluster consists of nodes and pods. A node is either a virtual machine (VM) or physical machine. A pod is an application-specific logical host that contains different application containers, each with its own IP address and port space. AKS supports real-time inference, or model scoring. It also supports Graphical Processing Unit (GPU) and FGPA. It supports GPU but that requires you to deploy your model as a web service.
 
 FGPA processors are flexible and configurable over time, and they are faster than GPU. GPI-J processors are good for fast parallel image rendering.
 
-ACI doe snot support FGPA. It is useful for testing and debugging.
+ACI does not support FGPA or GPU. It is useful for testing and debugging CPU based workloads that require less than 48GB of RAM.
 
-You should not use Machine Learning Compute. This service allows you to run batch scoring on a serverless compute infrastructure. It does not support FPGA or real-time scoring.
+Machine Learning Compute: This service allows you to run batch scoring on a serverless compute infrastructure. It supports GPU but not FPGA or real-time scoring.
 
 
 
 ## 5. Design for data governance, compliance, integrity, and security
-
