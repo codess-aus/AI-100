@@ -220,12 +220,14 @@ and databases. It is not ideal for deep learning models.
 * F series: This is a compute-optimized VM with a higher compute-
 to-memory ratio. It is ideal for batch processing and gaming, but not for deep learning models.
 * FPGA: This VM provides fast performance, and it is flexible and
-configurable as your needs change over time. It is great for parallel machine learning training.
+configurable as your needs change over time. It is great for parallel machine learning training. It is faster than GPU. However, it only supports machine learning inference (model scoring) workloads.
 * ASIC: This VM providers faster performance than FPGA, but it is 
-not flexible and configurable.
-GPU: This VM provides slower performance than FPGA. It is intended for fast parallel image rendering.
+not flexible and configurable. Not supported by AKS.
+GPU: This VM provides slower performance than FPGA. It is intended for fast parallel image rendering. This processor is popular for Al computations and parallel image rendering.
 * CPU: This VM provides the slowest performance. It is intended for
 general purpose processing, not graphics processing.
+
+
 
 ## 5. Design for data governance, compliance, integrity, and security
 
