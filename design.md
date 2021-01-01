@@ -256,6 +256,9 @@ ACI does not support FGPA or GPU. It is useful for testing and debugging CPU bas
 
 Machine Learning Compute: This service allows you to run batch scoring on a serverless compute infrastructure. It supports GPU but not FPGA or real-time scoring.
 
-
-
 ## 5. Design for data governance, compliance, integrity, and security
+Always encrypted: This security solution encrypts data at the client application before it leaves the user device. The data stays encrypted during transmission to the database server, and remains encrypted at the server. This is referred to as encryption at the client.
+
+Encryption in Motion: TLS and SSL secure data during transmission.
+
+TDE: Encrypts the entire database at the server, including the transaction logs. It does not prevent data from being compormised if the desktop computer is compromised.
