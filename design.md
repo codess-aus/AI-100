@@ -211,5 +211,21 @@ services help you perform Al without having to know data science skills. This is
 
 ## 4. Design the compute infrastructure to support a solution
 
+* N series: VMs in this series are GPU-enabled. They are ideal for
+graphics intensive workloads, simulation, and deep learning.
+* A series: This is an entry level VM for development and test
+servers, low-traffic web servers, and small-to-medium databases. It is not ideal for deep learning models.
+* D series: This is a general-purpose VM for enterprise applications 
+and databases. It is not ideal for deep learning models.
+* F series: This is a compute-optimized VM with a higher compute-
+to-memory ratio. It is ideal for batch processing and gaming, but not for deep learning models.
+* FPGA: This VM provides fast performance, and it is flexible and
+configurable as your needs change over time. It is great for parallel machine learning training.
+* ASIC: This VM providers faster performance than FPGA, but it is 
+not flexible and configurable.
+GPU: This VM provides slower performance than FPGA. It is intended for fast parallel image rendering.
+* CPU: This VM provides the slowest performance. It is intended for
+general purpose processing, not graphics processing.
+
 ## 5. Design for data governance, compliance, integrity, and security
 
