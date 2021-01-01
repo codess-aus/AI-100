@@ -145,13 +145,49 @@ You should not create many intents. An intent should specify a single function. 
 You should not create only one utterance. An utterance represents a different way the user can perform the same function. Therefore you should create many utterances per intent. 
 
 Regex entity: This represents an entity that uses a regular expression. A regular expression allows you to mark the part of text that represents, for example, the flight number. This allows the runtime prediction service to capture it from the rest of the text. This entity type is useful for values that can be determined by regular expressions, such as tax ID numbers, ISBN numbers, and IP 
-addresses.
+addresses. Example 'flightnumber" is defined as flight[A-Z]{2} {0-9}{4}
 
-A List entity: This requires that you list all the possible flight numbers during design-time. Where flight numbers vary, and there are over 50,000 flight numbers per day this becomes an impossible task. This entity type is useful for known values. For example, known values where there are the 15 department names.  This type is useful when an utterance can contain words from a pre-defined list.
+A regular expression entity extracts an entity based on a regular expression pattern you provide. A regular expression is best for raw utterance text. It ignores case and ignores cultural variant. Regular expression matching is applied after spell-check alterations at the character level, not the token level. If the regular expression is too complex, such as using many brackets, you're not able to add the expression to the model. Uses part but not all of the .NET Regex library.
 
-Composite entity: This requires that you create child entities. This is useful for an entity that has multiple parts. This is useful for an entity that has multiple parts.
+The entity is a good fit when:
 
-Simple entity. This entity type cannot identify flight numbers. This entity type cannot identify department names. This type is useful for capturing a specific word in an utterance, for example "Job".
+* The data are consistently formatted with any variation that is also consistent.
+* The regular expression does not need more than 2 levels of nesting.
+
+Example: Find KB-reference
+
+A List entity: This requires that you list all the possible flight numbers during design-time. Where flight numbers vary, and there are over 50,000 flight numbers per day this becomes an impossible task. This entity type is useful for known values. For example, known values where there are the 15 department names.  This type is useful when an utterance can contain words from a pre-defined list. List entities represent a fixed, closed set of related words. While you, as the author, can change the list, LUIS won't grow or shrink the list. You can also import to an existing list entity using a list entity .json format.
+
+A list entity isn't machine-learned. It is an exact text match. LUIS marks any match to an item in any list as an entity in the response.
+
+The entity is a good fit when the text data:
+
+* Are a known set.
+* Doesn't change often. If you need to change the list often or want the list to self-expand, a simple entity boosted with a phrase list is a better choice.
+* The set doesn't exceed the maximum LUIS boundaries for this entity type.
+* The text in the utterance is a case-insensitive match with a synonym or the canonical name. LUIS doesn't use the list beyond the match. Fuzzy matching, stemming, plurals, and other variations are not resolved with a list entity. To manage variations, consider using a pattern with the optional text syntax.
+
+Composite (ML) entity: This requires that you create child entities. This is useful for an entity that has multiple parts. This is useful for an entity that has multiple parts. A composite entity is made up of other entities, such as prebuilt entities, simple, regular expression, and list entities. The separate entities form a whole entity. This entity is deprecated. Please migrate to the machine-learning entity. The machine-learning entity is the preferred entity for building LUIS applications. Suppose the app takes pizza orders, such as the decomposable entity tutorial. Each order can include several different pizzas, including different sizes.
+
+Example utterances include:
+
+EXAMPLE JSON
+Example utterances for pizza app
+Can I get a pepperoni pizza and a can of coke please
+can I get a small pizza with onions peppers and olives
+pickup an extra large meat lovers pizza
+
+Or, Book {2} {Business-Class} tickets to {Perth}
+
+
+Simple entity. This entity type cannot identify flight numbers. This entity type cannot identify department names. This type is useful for capturing a specific word in an utterance, for example "Job". A simple entity is a generic entity that describes a single concept and is learned from the machine-learning context. Because simple entities are generally names such as company names, product names, or other categories of names, add a phrase list when using a simple entity to boost the signal of the names used.
+
+The entity is a good fit when:
+
+The data aren't consistently formatted but indicate the same thing.
+
+Book me a Flight to Perth on Qantas.
+Book me a Flight to Perth on an airline
 
 Prebuilt entity. This type exists for pre-defined entities, such as 
 addresses, phone numbers, and e-mails.
