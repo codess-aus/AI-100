@@ -211,6 +211,9 @@ services help you perform Al without having to know data science skills. This is
 
 ## 4. Design the compute infrastructure to support a solution
 
+<p><img align="center" src="https://github.com/msandfor/AI-100/blob/main/assets/azure-machine-learning-fpga-comparison.png"alt="Community photo"></p>
+<p align="center"></p>
+
 * N series: VMs in this series are GPU-enabled. They are ideal for
 graphics intensive workloads, simulation, and deep learning.
 * A series: This is an entry level VM for development and test
