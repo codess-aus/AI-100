@@ -259,6 +259,27 @@ Machine Learning Compute: This service allows you to run batch scoring on a serv
 ## 5. Design for data governance, compliance, integrity, and security
 Always encrypted: This security solution encrypts data at the client application before it leaves the user device. The data stays encrypted during transmission to the database server, and remains encrypted at the server. This is referred to as encryption at the client.
 
+Always Encrypted is a feature designed to protect sensitive data, such as credit card numbers or national identification numbers (for example, U.S. social security numbers), stored in Azure SQL Database or SQL Server databases. Always Encrypted allows clients to encrypt sensitive data inside client applications and never reveal the encryption keys to the Database Engine (SQL Database or SQL Server). As a result, Always Encrypted provides a separation between those who own the data and can view it, and those who manage the data but should have no access. By ensuring on-premises database administrators, cloud database operators, or other high-privileged unauthorized users, can't access the encrypted data, Always Encrypted enables customers to confidently store sensitive data outside of their direct control. This allows organizations to store their data in Azure, and enable delegation of on-premises database administration to third parties, or to reduce security clearance requirements for their own DBA staff.
+
+### Typical Scenarios
+Client and data on-premises:
+A customer has a client application and SQL Server both running on-premises, at their business location. The customer wants to hire an external vendor to administer SQL Server. In order to protect sensitive data stored in SQL Server, the customer uses Always Encrypted to ensure the separation of duties between database administrators and application administrators. The customer stores plaintext values of Always Encrypted keys in a trusted key store, which the client application can access. SQL Server administrators have no access to the keys and, therefore, are unable to decrypt sensitive data stored in SQL Server.
+
+Client on-premises with data in Azure:
+A customer has an on-premises client application at their business location. The application operates on sensitive data stored in a database hosted in Azure (SQL Database or SQL Server running in a virtual machine on Microsoft Azure). The customer uses Always Encrypted and stores Always Encrypted keys in a trusted key store hosted on-premises, to ensure Microsoft cloud administrators have no access to sensitive data.
+
+Client and Data in Azure:
+A customer has a client application, hosted in Microsoft Azure (for example, in a worker role or a web role), which operates on sensitive data stored in a database hosted in Azure (SQL Database or SQL Server running in a virtual machine on Microsoft Azure). Although Always Encrypted doesn't provide complete isolation of data from cloud administrators, as both the data and keys are exposed to cloud administrators of the platform hosting the client tier, the customer still benefits from reducing the security attack surface area (the data is always encrypted in the database).
+
 Encryption in Motion: TLS and SSL secure data during transmission.
 
 TDE: Encrypts the entire database at the server, including the transaction logs. It does not prevent data from being compormised if the desktop computer is compromised.
+
+RLS: Allows you to create a security policy and function that filters access to data. Whenever a query to data is made to a table that has an associated security policy, a function is called to determine whether data should be returned. It can compare the current user accessing the data to the value of the field in the database to determine if the query should return results.
+
+Row-Level Security enables you to use group membership or execution context to control access to rows in a database table.
+
+Row-Level Security (RLS) simplifies the design and coding of security in your application. RLS helps you implement restrictions on data row access. For example, you can ensure that workers access only those data rows that are pertinent to their department. Another example is to restrict customers' data access to only the data relevant to their company.
+
+The access restriction logic is located in the database tier rather than away from the data in another application tier. The database system applies the access restrictions every time that data access is attempted from any tier. This makes your security system more reliable and robust by reducing the surface area of your security system.
+
