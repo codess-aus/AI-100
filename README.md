@@ -140,6 +140,7 @@ Also, I'd love it if you've found this Project useful - Could you please click o
 Overview of the Face API - Can detect features - eyes closed, looking at road etc
 
 ## Implement and monitor AI solutions (25-30%)
+[My Notes on Implement and Monitor](https://github.com/msandfor/AI-100/blob/main/monitor.md)
 
 | Resource | Topic | Step |   
 |------|--------|------------------|
