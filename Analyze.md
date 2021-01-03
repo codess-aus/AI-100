@@ -41,7 +41,7 @@ Face API allows you to detect specific features on a persons face, and if that p
 
 Content Moderator allows you to create a list of explicit terms to be matched against user-generated content. The API returns a response specifying any banned terms that appear in the content.
 
-Text Analytics allows you to extra key phrases from the text and detect the language of the text.
+Cognitive Services Text Analytics can extract key phrases from text and determine positive or negative sentiment, returning a sentiment result between O and 1, with O being negative and 1 being positive.You can use the returned values to determine the next options to provide to the user.
 
 ### 3. select the appropriate AI models and services
 

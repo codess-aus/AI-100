@@ -210,7 +210,7 @@ Design a bot that uses Azure Bot Service and Azure Bot Framework. The developmen
 services help you perform Al without having to know data science skills. This is not necessary for allowing a client application to communicate with your bot. However, services such as Language Understanding (LUIS) can be integrated into bot code to help interpret user conversations. 
 * QnA Maker. This service allows you to build a question and answer set by using a published knowledge base. You can integrate QnA Maker with your bot. 
 * LUIS. This service helps a bot understand what a person is saying in their own words by using a combination of utterances, intents, and entities. An utterance is a phrase or sentence used by a user. An intent is a collection of utterances to indicate a function that the user is trying to perform. An entity is a known extracted word or phrase from an utterance. 
-* Text Analytics: This service identifies key phrases and the language of text.
+* Text Analytics: This service identifies key phrases and the language of text. (Cognitive Services Text Analytics can extract key phrases from text and determine positive or negative sentiment, returning a sentiment result between O and 1, with O being negative and 1 being positive.You can use the returned values to determine the next options to provide to the user.)
 * *Translator Text: This service translates text from one language to another. 
 
 
