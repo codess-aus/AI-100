@@ -12,6 +12,13 @@ With the Text Moderation API, you can:
 * Classify the potentially offensive content.
 * Get insights into the potential PII that's being shared so that you can protect it.
 
+The Text Analytics API is a cloud-based service that provides Natural Language Processing (NLP) features for text mining and text analysis, including:
+* sentiment analysis, 
+* opinion mining,
+* key phrase extraction,
+* language detection,
+* named entity recognition.
+
 LUIS:
 
 LUIS makes use of three key aspects for understanding language:
