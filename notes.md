@@ -29,3 +29,10 @@ Web logs/clickstream analytics
 Geospatial analytics for fleet management and driverless vehicles
 Remote monitoring and predictive maintenance of high value assets
 Real-time analytics on Point of Sale data for inventory control and anomaly detection
+
+Stream Analytics has first-class integration with four kinds of resources as inputs:
+
+Azure Event Hubs
+Azure IoT Hub
+Azure Blob storage
+Azure Data Lake Storage Gen2
