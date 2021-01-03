@@ -10,7 +10,7 @@
 <a href="https://www.youtube.com/c/MichelleSandford" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="MichelleSandford" height="30" width="30" /></a>
 </p>
 
-<p><img align="center" src="https://github.com/msandfor/AI-100/blob/main/assets/stream-analytics-e2e-pipeline.pngg" alt="ASA Pipeline"></p>
+<p><img align="center" src="https://github.com/msandfor/AI-100/blob/main/assets/stream-analytics-e2e-pipeline.png" alt="ASA Pipeline"></p>
 <p align="center"></p>
 
 # AI-100
