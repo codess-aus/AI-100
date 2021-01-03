@@ -59,7 +59,7 @@ Machine Learning Service is a data science solution that allows you to train, ma
 
 IoT Hub is a big data stream ingestion service. It can process large amounts of data in parallel. It supports per-device provisioning and bi-directional communication. It supports MQTT, AMQP and Https.
 
-Stream Analytics is a real-time analytics and event processing solution that ingests data from multiple sources simulataneously. However the sources must be Azure Resources. They cannot be Apps on a Device.
+Stream Analytics is a real-time analytics and event processing solution that ingests data from multiple sources simulataneously. However the sources must be Azure Resources. They cannot be Apps on a Device. It can ingest from Azure Event Hub and Azure IOT Hub and blob storage.
 
 Service Bus is a cloud-based messaging broker. 
 
