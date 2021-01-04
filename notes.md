@@ -51,7 +51,7 @@ Capture a variety of different examples, or alternative ways of saying the same 
 Vary the length of the utterances from short, to medium, to long
 Vary the location of the noun or subject of the utterance. Place it at the beginning, the end, or somewhere in between
 Use correct grammar and incorrect grammar in different utterances to offer good training data examples
-Follow the guidance on the (good utterances)[https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-concept-utterance] page
+Follow the guidance on the [good utterances](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-concept-utterance) page
 
 Azure Stream Analytics: is a real-time analytics and complex event-processing engine that is designed to analyze and process high volumes of fast streaming data from multiple sources simultaneously. Patterns and relationships can be identified in information extracted from a number of input sources including devices, sensors, clickstreams, social media feeds, and applications. These patterns can be used to trigger actions and initiate workflows such as creating alerts, feeding information to a reporting tool, or storing transformed data for later use. Also, Stream Analytics is available on Azure IoT Edge runtime, enabling to process data on IoT devices.
 
