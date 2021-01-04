@@ -128,3 +128,13 @@ The Speech Translation API lets you add end-to-end, real-time, multilanguage tra
 With the Speech Translation API, client applications use speech audio with the Speech service, and receive back a stream of results. These results include the recognized text in the source language. Interim translations can be provided until an utterance is complete, at which time a final translation is provided.
 
 The Speech Translation API uses the same technologies that power various Microsoft products and services. This service is already used by thousands of businesses worldwide in their applications and workflows.
+
+Scenarios in which speech synthesis is being adopted include:
+
+Improving accessibility: text-to-speech technology enables content owners and publishers to respond to the different ways people interact with their content. People with visual impairment or reading difficulties appreciate being able to consume content aurally. Voice output also makes it easier for people to enjoy textual content, such as newspapers or blogs, on mobile devices while commuting or exercising.
+
+Responding in multitasking scenarios: text-to-speech enables people to absorb important information quickly and comfortably while driving or otherwise outside a convenient reading environment. Navigation is a common application in this area.
+
+Enhancing learning with multiple modes: Different people learn best in different ways. Online learning experts have shown that providing voice and text together can help make information easier to learn and retain.
+
+Delivering intuitive bots or assistants: The ability to talk can be an integral part of an intelligent chat bot or a virtual assistant. More and more companies are developing chat bots to provide engaging customer service experiences for their customers. Voice adds another dimension by allowing the bot's responses to be received aurally (for example, by phone).
