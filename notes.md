@@ -141,3 +141,26 @@ Delivering intuitive bots or assistants: The ability to talk can be an integral 
 
 Text-to-speech from the Speech service enables your applications, tools, or devices to convert text into human-like synthesized speech. Choose from standard and neural voices, or create a custom voice unique to your product or brand. 75+ standard voices are available in more than 45 languages and locales, and 5 neural voices are available in a select number of languages and locales.
 
+Speech translation is the process by which conversational, spoken phrases are instantly translated (and spoken aloud) in a second language. Speech translation technology enables speakers of different languages to communicate easily across a broad range of services for both consumer and business scenarios, especially in the world science, cross-cultural exchange, and global business interaction.
+
+Most speech translation systems derive from one or more of three base technologies: automatic speech recognition (Site Recovery), machine translation, or voice synthesis. Services exposed by the Azure Cognitive Services Speech API leverage automatic speech recognition, as well as elements of machine translation and voice synthesis.
+
+Speech translation services are used in many scenarios today.
+
+Live presentation translation
+In-person or remote translated communications
+Customer support
+Business intelligence
+Media subtitling
+Multilingual AI interactions
+
+The speech translation capabilities require working with some key objects:
+
+A SpeechTranslationConfig object that will accept
+* your subscription key and region information
+* attributes for source and target language
+* a speech output voice name
+A TranslationRecognizer object that will accept
+* the SpeechTranslationConfig object listed above
+* calling the method to start the recognition process
+A TranslationRecognitionResult object is returned for you to evaluate for the result
