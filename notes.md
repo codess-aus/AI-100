@@ -58,3 +58,9 @@ Hardware acceleration options such as GPU and field-programmable gate arrays (FP
 
 You need to quickly deploy and validate your model. You do not need to create ACI containers ahead of time. They are created as part of the deployment process.
 You are testing a model that is under development.
+
+To deploy a model to Azure Container Instances, create a deployment configuration that describes the compute resources needed. For example, number of cores and memory. You also need an inference configuration, which describes the environment needed to host the model and web service.
+
+ACI is suitable only for small models that are under 1 GB in size.
+We recommend using single-node AKS to dev-test larger models.
+
