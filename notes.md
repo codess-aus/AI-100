@@ -19,6 +19,10 @@ The Text Analytics API is a cloud-based service that provides Natural Language P
 * language detection,
 * named entity recognition.
 
+The Text Analytics API is a cloud-based service that provides advanced natural language processing over raw text, and includes four main functions: sentiment analysis, key phrase extraction, named entity recognition, and language detection.
+
+The Key Phrase Extraction API evaluates unstructured text, and for each JSON document, returns a list of key phrases. Key phrase extraction is useful if you need to quickly identify the main points in a collection of documents.
+
 LUIS:
 
 LUIS makes use of three key aspects for understanding language:
@@ -75,4 +79,12 @@ FPGAs contain an array of programmable logic blocks, and a hierarchy of reconfig
 FPGAs make it possible to achieve low latency for real-time inference (or model scoring) requests. Asynchronous requests (batching) aren't needed. Batching can cause latency, because more data needs to be processed. Implementations of neural processing units don't require batching; therefore the latency can be many times lower, compared to CPU and GPU processors.
 
 You can reconfigure FPGAs for different types of machine learning models. This flexibility makes it easier to accelerate the applications based on the most optimal numerical precision and memory model being used. Because FPGAs are reconfigurable, you can stay current with the requirements of rapidly changing AI algorithms.
+
+Azure Machine Learning uses pipelines to create reproducible and easy-to-manage sequences of computation. It also offers a managed compute target (on which a pipeline computation can run) called Azure Machine Learning Compute for training, deploying, and scoring machine learning models.
+
+Key phrase extraction Examples:
+
+* integrate speech to text and analyze customer support calls to determine their most common issues with your products
+* monitor social media feeds. Perhaps you are running a political campaign and want to see how the candidates are being perceived on social media. You can mine the posts on feeds, such as Twitter, and then extract key phrases from the tweets
+* evaluate a set of documents for classified or sensitive information and decide whether to release them or not
 
