@@ -23,6 +23,12 @@ The Text Analytics API is a cloud-based service that provides advanced natural l
 
 The Key Phrase Extraction API evaluates unstructured text, and for each JSON document, returns a list of key phrases. Key phrase extraction is useful if you need to quickly identify the main points in a collection of documents.
 
+The Language Detection API evaluates text input and, for each document submitted, returns language identifiers with a score indicating the strength of the analysis. Text Analytics recognizes up to 120 languages.
+
+This capability is useful for content stores that collect arbitrary text, where language is unknown. Another scenario could involve a chat bot. If a user starts a session with the chat bot, language detection can be used to determine which language they are using and allow you to configure your bot responses in the appropriate language.
+
+Language detection can work with documents or single phrases. It's important to note that the document size must be under 5,120 characters. The size limit is per document and each collection is restricted to 1,000 items (IDs).
+
 LUIS:
 
 LUIS makes use of three key aspects for understanding language:
@@ -30,6 +36,14 @@ LUIS makes use of three key aspects for understanding language:
 * Utterances: An utterance is input from the user that your app needs to interpret.
 * Intents: An intent represents a task or action the user wants to do. It's a purpose or goal expressed in a user's utterance.
 * Entities: An entity represents a word or phrase inside the utterance that you want to extract.
+
+An entity extracts data from a user utterance at prediction runtime. An optional, secondary purpose is to boost the prediction of the intent or other entities by using the entity as a feature.
+
+There are several types of entities:
+
+Machine-learning entity - this is the primary entity. You should design your schema with this entity type before using other entities.
+Non-machine-learning used as a required feature - for exact text matches, pattern matches, or detection by prebuilt entities.
+Pattern.any - to extract free-form text such as book titles from a Pattern.
 
 Azure Stream Analytics: is a real-time analytics and complex event-processing engine that is designed to analyze and process high volumes of fast streaming data from multiple sources simultaneously. Patterns and relationships can be identified in information extracted from a number of input sources including devices, sensors, clickstreams, social media feeds, and applications. These patterns can be used to trigger actions and initiate workflows such as creating alerts, feeding information to a reporting tool, or storing transformed data for later use. Also, Stream Analytics is available on Azure IoT Edge runtime, enabling to process data on IoT devices.
 
