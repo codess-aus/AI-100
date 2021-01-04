@@ -44,3 +44,12 @@ Stream Analytics has first-class integration with four kinds of resources as inp
 * Azure Blob storage
 * Azure Data Lake Storage Gen2
 
+(AKS). Azure Kubernetes Service is good for high-scale production deployments. Use Azure Kubernetes service if you need one or more of the following capabilities:
+
+Fast response time
+Autoscaling of the deployed service
+Logging
+Model data collection
+Authentication
+TLS termination
+Hardware acceleration options such as GPU and field-programmable gate arrays (FPGA)
