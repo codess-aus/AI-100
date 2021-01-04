@@ -138,3 +138,6 @@ Responding in multitasking scenarios: text-to-speech enables people to absorb im
 Enhancing learning with multiple modes: Different people learn best in different ways. Online learning experts have shown that providing voice and text together can help make information easier to learn and retain.
 
 Delivering intuitive bots or assistants: The ability to talk can be an integral part of an intelligent chat bot or a virtual assistant. More and more companies are developing chat bots to provide engaging customer service experiences for their customers. Voice adds another dimension by allowing the bot's responses to be received aurally (for example, by phone).
+
+Text-to-speech from the Speech service enables your applications, tools, or devices to convert text into human-like synthesized speech. Choose from standard and neural voices, or create a custom voice unique to your product or brand. 75+ standard voices are available in more than 45 languages and locales, and 5 neural voices are available in a select number of languages and locales.
+
