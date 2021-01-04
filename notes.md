@@ -53,6 +53,10 @@ Vary the location of the noun or subject of the utterance. Place it at the begin
 Use correct grammar and incorrect grammar in different utterances to offer good training data examples
 Follow the guidance on the [good utterances](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-concept-utterance) page
 
+The Language Understanding (LUIS) container loads your trained or published Language Understanding model. As a LUIS app, the docker container provides access to the query predictions from the container's API endpoints. You can collect query logs from the container and upload them back to the Language Understanding app to improve the app's prediction accuracy.
+
+Containerizing LUIS offers many benefits including the ability to run you're the service closer to your application, reduce network constraints on consumption of the LUIS app, help to reduce the cost associated with testing by taking endpoint hits off the Azure or LUIS platform, and the ability to scale up or scale out the LUIS application using container instances or Azure Kubernetes Services (AKS).
+
 Azure Stream Analytics: is a real-time analytics and complex event-processing engine that is designed to analyze and process high volumes of fast streaming data from multiple sources simultaneously. Patterns and relationships can be identified in information extracted from a number of input sources including devices, sensors, clickstreams, social media feeds, and applications. These patterns can be used to trigger actions and initiate workflows such as creating alerts, feeding information to a reporting tool, or storing transformed data for later use. Also, Stream Analytics is available on Azure IoT Edge runtime, enabling to process data on IoT devices.
 
 The following scenarios are examples of when you can use Azure Stream Analytics:
@@ -109,4 +113,13 @@ Key phrase extraction Examples:
 * integrate speech to text and analyze customer support calls to determine their most common issues with your products
 * monitor social media feeds. Perhaps you are running a political campaign and want to see how the candidates are being perceived on social media. You can mine the posts on feeds, such as Twitter, and then extract key phrases from the tweets
 * evaluate a set of documents for classified or sensitive information and decide whether to release them or not
+
+Speech services are designed to perform real-time speech-to-text for scenarios like:
+
+Translation of live presentations
+In-person or remote translated communications
+Customer support
+Business intelligence
+Media subtitling
+Multilingual AI interactions
 
