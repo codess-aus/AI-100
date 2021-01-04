@@ -53,3 +53,8 @@ Model data collection
 Authentication
 TLS termination
 Hardware acceleration options such as GPU and field-programmable gate arrays (FPGA)
+
+(ACI). Use Azure Container Instances if one of the following conditions is true:
+
+You need to quickly deploy and validate your model. You do not need to create ACI containers ahead of time. They are created as part of the deployment process.
+You are testing a model that is under development.
