@@ -45,6 +45,14 @@ Machine-learning entity - this is the primary entity. You should design your sch
 Non-machine-learning used as a required feature - for exact text matches, pattern matches, or detection by prebuilt entities.
 Pattern.any - to extract free-form text such as book titles from a Pattern.
 
+Utterances are the phrases that a users might enter when interacting with an app that is tied to your LUIS model. Your LUIS app will need to interpret these utterances and match them to the correct Intent. When entering your utterances, keep these aspects in mind:
+
+Capture a variety of different examples, or alternative ways of saying the same thing
+Vary the length of the utterances from short, to medium, to long
+Vary the location of the noun or subject of the utterance. Place it at the beginning, the end, or somewhere in between
+Use correct grammar and incorrect grammar in different utterances to offer good training data examples
+Follow the guidance on the (good utterances)[https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-concept-utterance] page
+
 Azure Stream Analytics: is a real-time analytics and complex event-processing engine that is designed to analyze and process high volumes of fast streaming data from multiple sources simultaneously. Patterns and relationships can be identified in information extracted from a number of input sources including devices, sensors, clickstreams, social media feeds, and applications. These patterns can be used to trigger actions and initiate workflows such as creating alerts, feeding information to a reporting tool, or storing transformed data for later use. Also, Stream Analytics is available on Azure IoT Edge runtime, enabling to process data on IoT devices.
 
 The following scenarios are examples of when you can use Azure Stream Analytics:
