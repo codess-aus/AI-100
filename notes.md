@@ -173,3 +173,11 @@ The most common task an application or script will do with the Custom Vision ser
 
 Azure Video Indexer is a service to extract insights from media. It uses machine learning models that can be further customized and trained. The video insights include face identification, text recognition, object labels, scene segmentations, and more. Additional insights are extracted from audio, such as transcription and emotion detection. You can use these results to improve search, extract clips, create thumbnails, and more.
 
+Typical examples of structured data are names, addresses, credit card numbers, geolocation, and so on.
+Typical examples of unstructured data are rich media, text, social media activity, surveillance imagery, and so on. 
+
+Structured data is clearly defined and searchable types of data, while unstructured data is usually stored in its native format. 
+Structured data is quantitative, while unstructured data is qualitative.
+Structured data is often stored in data warehouses, while unstructured data is stored in data lakes.
+Structured data is easy to search and analyze, while unstructured data requires more work to process and understand.  
+Structured data exists in predefined formats, while unstructured data is in a variety of formats. 

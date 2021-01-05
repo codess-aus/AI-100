@@ -61,6 +61,13 @@ IoT Hub is a big data stream ingestion service. It can process large amounts of 
 
 Stream Analytics is a real-time analytics and event processing solution that ingests data from multiple sources simulataneously. However the sources *must be Azure Resources*. They cannot be Apps on a Device. It can ingest from Azure Event Hub and Azure IOT Hub and blob storage.
 
+Azure SQL DB, Azure Table Storage and Azure Cosmos DB are supported as outputs to stream analytics.
+
+You should use SQL Database, Table storage, or Cosmos DB. All three are supported as output to Stream Analytics, which is what you should use to query and process the input data as soon as it arrives in the cloud. In addition to these three, Stream Analytics also supports, Event Hub, Blob storage, Service Bus, Function, Data Lake, and Power Bl as outputs. 
+
+You should not use Databricks or Data Factory. Neither of these are supported as Stream Analytics output.
+Data Factory allows you to create big data pipelines to copy data between sources and destinations.
+
 Service Bus is a cloud-based messaging broker. 
 
 Service Fabric is a cloud-based distribution platform that allows you to run workloads in parallel across thousands of VMs.
@@ -127,4 +134,5 @@ Azure Table Storage. This allows you to store structured data as key-attribute p
 
 Azure Queue Storage allows you to store and retrieve messages. It does not store structured data. It is a reliable message store for processing messages in sequence asynchronously. Example - you are designing a solution that will process and analyze data asynchronously. The data must be processed in the order in which it is received.
 
-Azure Blob Storage allows you to store files. It does not store structured data. A Scalable data store for text and binary data. 
+Azure Blob Storage allows you to store files. It does not store structured data. A Scalable data store for text and binary data. Azure blob storage allows you to store text and binary files. It does not support ingestion of streaming data.
+
