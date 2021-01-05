@@ -171,3 +171,5 @@ Microsoft's translation engine is powered by two different approaches: statistic
 
 The most common task an application or script will do with the Custom Vision service is request image predictions through the Prediction API. This task involves sending an authorized web request to the subscription endpoint and processing the information returned from the call.
 
+Azure Video Indexer is a service to extract insights from media. It uses machine learning models that can be further customized and trained. The video insights include face identification, text recognition, object labels, scene segmentations, and more. Additional insights are extracted from audio, such as transcription and emotion detection. You can use these results to improve search, extract clips, create thumbnails, and more.
+
