@@ -119,7 +119,7 @@ CosmosDB with the Gremlin API is useful for Graph based data.
 
 Data Lake allows you to temporarily store data of any size and type. This is a storage solution for big solution workloads. It supports data of any size and type. It does not store structured data. It is an Apache Hadoop file system that allows you to ingest and store data in it's native format.
 
-Databricks is a Spark based analytics solution that allows you to process data in batches or real-time streams. Allows you to create Big Data Pipelines. Runs on Spark Clusters not Hadoop Clusters.
+**Databricks** is a **Spark** based analytics solution that allows you to process data in **batches** or **real-time streams**. Allows you to create Big Data Pipelines. Runs on Spark Clusters not Hadoop Clusters.
 
 Azure Log Analytics allows you to write queries to monitor application usage.
 
