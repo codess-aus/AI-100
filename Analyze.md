@@ -59,7 +59,7 @@ Machine Learning Service is a data science solution that allows you to train, ma
 
 IoT Hub is a big data stream ingestion service. It can process large amounts of data in parallel. It supports per-device provisioning and bi-directional communication. It supports MQTT, AMQP and Https.
 
-Stream Analytics is a real-time analytics and event processing solution that ingests data from multiple sources simulataneously. However the sources must be Azure Resources. They cannot be Apps on a Device. It can ingest from Azure Event Hub and Azure IOT Hub and blob storage.
+Stream Analytics is a real-time analytics and event processing solution that ingests data from multiple sources simulataneously. However the sources *must be Azure Resources*. They cannot be Apps on a Device. It can ingest from Azure Event Hub and Azure IOT Hub and blob storage.
 
 Service Bus is a cloud-based messaging broker. 
 
@@ -119,7 +119,7 @@ CosmosDB with the Gremlin API is useful for Graph based data.
 
 Data Lake allows you to temporarily store data of any size and type. This is a storage solution for big solution workloads. It supports data of any size and type. It does not store structured data. It is an Apache Hadoop file system that allows you to ingest and store data in it's native format.
 
-**Databricks** is a **Spark** based analytics solution that allows you to process data in **batches** or **real-time streams**. Allows you to create Big Data Pipelines. Runs on Spark Clusters not Hadoop Clusters.
+**Databricks** is a **Spark** based analytics solution that allows you to process data in **batches** or **real-time streams**. Allows you to create Big Data Pipelines. Runs on Spark Clusters not Hadoop Clusters. Not supported as Stream Analytics Output.
 
 Azure Log Analytics allows you to write queries to monitor application usage.
 
