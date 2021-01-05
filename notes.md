@@ -181,3 +181,11 @@ Structured data is quantitative, while unstructured data is qualitative.
 Structured data is often stored in data warehouses, while unstructured data is stored in data lakes.
 Structured data is easy to search and analyze, while unstructured data requires more work to process and understand.  
 Structured data exists in predefined formats, while unstructured data is in a variety of formats. 
+
+Apache Spark is a parrallel processing framework that supports in-memory processing to boost performance of big-data analytic applications. Apache Spark in Azure HDInsight is the Microsoft Implementation of Apache Spark in the Cloud.
+
+Interactive Query provides in-memory caching and improved columnar storage engine for Hive Queries
+
+LargePersonGroup and LargeFaceList aee collectively referred to as large-scale operators
+
+Apache Kafka is an open-source distributed streaming platform that can be used to build real-time streaming data pipelines and applications. Kafka also provides message broker functionality similar to a message queue, where you can publish and subscribe to named data streams. Azure HD Insights with Apache Storm

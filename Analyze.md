@@ -96,6 +96,12 @@ Security Admin - no effect on CS.
 
 Shared Access Signature. A SAS is a URL with a token that specifies the allowed permissions. Example: You are developing a solution that allows developers to create ML experiments. The data for the solution will be stored in an Azure Table. You need to ensure developers can read from the table but not modify or delete it.
 
+A shared access signature (SAS) provides secure delegated access to resources in your storage account. With a SAS, you have granular control over how a client can access your data. For example:
+
+* What resources the client may access.
+* What permissions they have to those resources.
+* How long the SAS is valid.
+
 An Access Key provides Admin Access to an Azure Storage Account.
 
 RBAC will not provide fine-grained access to Azure Tables.
