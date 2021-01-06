@@ -285,7 +285,7 @@ Real-Time Processing:
 
 Real time processing deals with streams of data that are captured in real-time and processed with minimal latency to generate real-time (or near-real-time) reports or automated responses. For example, a real-time traffic monitoring solution might use sensor data to detect high traffic volumes. This data could be used to dynamically update a map to show congestion, or automatically initiate high-occupancy lanes or other traffic management systems.
 
-<p><img align="center" src="https://github.com/msandfor/AI-100/blob/main/assets/stream-analytics-e2e-pipeline.png" alt="ASA Pipeline"></p>
+<p><img align="center" src="https://github.com/msandfor/AI-100/blob/main/realtimeprocessing.PNG" alt="Real-time processing architecture"></p>
 <p align="center"></p>
 
 Real-time processing is defined as the processing of unbounded stream of input data, with very short latency requirements for processing — measured in milliseconds or seconds. This incoming data typically arrives in an unstructured or semi-structured format, such as JSON, and has the same processing requirements as batch processing, but with shorter turnaround times to support real-time consumption.
