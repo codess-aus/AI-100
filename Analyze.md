@@ -102,6 +102,11 @@ A shared access signature (SAS) provides secure delegated access to resources in
 * What permissions they have to those resources.
 * How long the SAS is valid.
 
+Configure encryption with customer-managed keys stored in Azure Key Vault Managed HSM:
+* Assign an identity to the storage account
+* Assign a role to the storage account for access to the managed HSM
+* Configure encryption with a key in the managed HSM
+
 An Access Key provides Admin Access to an Azure Storage Account.
 
 RBAC will not provide fine-grained access to Azure Tables.
