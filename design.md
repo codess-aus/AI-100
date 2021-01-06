@@ -312,3 +312,13 @@ Azure Synapse Analytics, Azure Data Explorer, HBase, Spark, or Hive. Processed r
 
 Analytics and reporting
 Azure Analysis Services, Power BI, and Microsoft Excel. Processed real-time data that is stored in an analytical data store can be used for historical reporting and analysis in the same way as batch processed data. Additionally, Power BI can be used to publish real-time (or near-real-time) reports and visualizations from analytical data sources where latency is sufficiently low, or in some cases directly from the stream processing output.
+
+Batch processing:
+
+A common big data scenario is batch processing of data at rest. In this scenario, the source data is loaded into data storage, either by the source application itself or by an orchestration workflow. The data is then processed in-place by a parallelized job, which can also be initiated by the orchestration workflow. The processing may include multiple iterative steps before the transformed results are loaded into an analytical data store, which can be queried by analytics and reporting components.
+
+For example, the logs from a web server might be copied to a folder and then processed overnight to generate daily reports of web activity.
+
+<p><img align="center" src="https://github.com/msandfor/AI-100/blob/main/realtimeprocessing.PNG" alt="Real-time processing architecture"></p>
+<p align="center"></p>
+
