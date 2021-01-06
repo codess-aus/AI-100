@@ -319,6 +319,6 @@ A common big data scenario is batch processing of data at rest. In this scenario
 
 For example, the logs from a web server might be copied to a folder and then processed overnight to generate daily reports of web activity.
 
-<p><img align="center" src="https://github.com/msandfor/AI-100/blob/main/realtimeprocessing.PNG" alt="Real-time processing architecture"></p>
+<p><img align="center" src="https://github.com/msandfor/AI-100/blob/main/assets/batch-pipeline.png" alt="Batch processing architecture"></p>
 <p align="center"></p>
 
