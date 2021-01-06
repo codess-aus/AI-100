@@ -45,8 +45,7 @@ support ingestion of streaming data.
 
 Example: A solution that allows the CEO to visualise the data.
 
-You should use Power Bl. This is a collection of apps, services, and connectors that turn data into visual 
-insights. It can automatically generate charts and graphs. 
+You should use Power Bl. This is a collection of apps, services, and connectors that turn data into visual insights. It can automatically generate charts and graphs. 
 
 You should not use Databricks. This is an Apache Spark-based analytics platform that allows you to create 
 workflows. You can use it to generate charts, but it requires knowledge of a programming language to query 
@@ -62,13 +61,12 @@ You should not use Log Analytics. This allows you to write queries to monitor ap
 Example: You need to choose a solution that stores the sensor data after it is ingested and analyzed. 
 Which three outputs should you recommend? 
 
-You should use SQL Database, Table storage, or Cosmos DB. All three are supported as output to Stream 
-Analytics, which is what you should use to query and process the input data as soon as it arrives in the 
-cloud. In addition to these three, Stream Analytics also supports, Event Hub, Blob storage, Service Bus, 
-Function, Data Lake, and Power Bl as outputs. 
+You should use SQL Database, Table storage, or Cosmos DB. All three are supported as output to Stream Analytics, which is what you should use to query and process the input data as soon as it arrives in the cloud. In addition to these three, Stream Analytics also supports, Event Hub, Blob storage, Service Bus, Function, Data Lake, and Power Bl as outputs.
 
 You should not use Databricks or Data Factory. Neither of these are supported as Stream Analytics output. 
 Data Factory allows you to create big data pipelines to copy data between sources and destinations. 
+
+Datalake and HD Insights go together well.
 
 Example: You are designing an Azure Data Factory pipeline that must perform the following tasks: 
 
@@ -283,3 +281,34 @@ Row-Level Security (RLS) simplifies the design and coding of security in your ap
 
 The access restriction logic is located in the database tier rather than away from the data in another application tier. The database system applies the access restrictions every time that data access is attempted from any tier. This makes your security system more reliable and robust by reducing the surface area of your security system.
 
+Real-Time Processing:
+
+Real time processing deals with streams of data that are captured in real-time and processed with minimal latency to generate real-time (or near-real-time) reports or automated responses. For example, a real-time traffic monitoring solution might use sensor data to detect high traffic volumes. This data could be used to dynamically update a map to show congestion, or automatically initiate high-occupancy lanes or other traffic management systems.
+
+<p><img align="center" src="https://github.com/msandfor/AI-100/blob/main/assets/stream-analytics-e2e-pipeline.png" alt="ASA Pipeline"></p>
+<p align="center"></p>
+
+Real-time processing is defined as the processing of unbounded stream of input data, with very short latency requirements for processing — measured in milliseconds or seconds. This incoming data typically arrives in an unstructured or semi-structured format, such as JSON, and has the same processing requirements as batch processing, but with shorter turnaround times to support real-time consumption.
+
+Processed data is often written to an analytical data store, which is optimized for analytics and visualization. The processed data can also be ingested directly into the analytics and reporting layer for analysis, business intelligence, and real-time dashboard visualization.
+
+The following technologies are recommended choices for real-time processing solutions in Azure.
+
+Real-time message ingestion
+**Azure Event Hubs** Azure Event Hubs is a messaging solution for ingesting millions of event messages per second. The captured event data can be processed by multiple consumers in parallel. While Event Hubs natively supports AMQP (Advanced Message Queuing Protocol 1.0), it also provides a binary compatibility layer that allows applications using the Kafka protocol (Kafka 1.0 and above) to process events using Event Hubs with no application changes.
+**Azure IoT Hub**. Azure IoT Hub provides bi-directional communication between Internet-connected devices, and a scalable message queue that can handle millions of simultaneously connected devices.
+**Apache Kafka**. Kafka is an open source message queuing and stream processing application that can scale to handle millions of messages per second from multiple message producers, and route them to multiple consumers. Kafka is available in Azure as an HDInsight cluster type.
+
+Data storage
+**Azure Storage Blob Containers** or **Azure Data Lake Store**. Incoming real-time data is usually captured in a message broker (see above), but in some scenarios, it can make sense to monitor a folder for new files and process them as they are created or updated. Additionally, many real-time processing solutions combine streaming data with static reference data, which can be stored in a file store. Finally, file storage may be used as an output destination for captured real-time data for archiving, or for further batch processing in a lambda architecture.
+
+Stream processing
+Azure Stream Analytics. Azure Stream Analytics can run perpetual queries against an unbounded stream of data. These queries consume streams of data from storage or message brokers, filter and aggregate the data based on temporal windows, and write the results to sinks such as storage, databases, or directly to reports in Power BI. Stream Analytics uses a SQL-based query language that supports temporal and geospatial constructs, and can be extended using JavaScript.
+Storm. Apache Storm is an open source framework for stream processing that uses a topology of spouts and bolts to consume, process, and output the results from real-time streaming data sources. You can provision Storm in an Azure HDInsight cluster, and implement a topology in Java or C#.
+Spark Streaming. Apache Spark is an open source distributed platform for general data processing. Spark provides the Spark Streaming API, in which you can write code in any supported Spark language, including Java, Scala, and Python. Spark 2.0 introduced the Spark Structured Streaming API, which provides a simpler and more consistent programming model. Spark 2.0 is available in an Azure HDInsight cluster.
+
+Analytical data store
+Azure Synapse Analytics, Azure Data Explorer, HBase, Spark, or Hive. Processed real-time data can be stored in a relational database such Synapse Analytics, Azure Data Explorer, a NoSQL store such as HBase, or as files in distributed storage over which Spark or Hive tables can be defined and queried.
+
+Analytics and reporting
+Azure Analysis Services, Power BI, and Microsoft Excel. Processed real-time data that is stored in an analytical data store can be used for historical reporting and analysis in the same way as batch processed data. Additionally, Power BI can be used to publish real-time (or near-real-time) reports and visualizations from analytical data sources where latency is sufficiently low, or in some cases directly from the stream processing output.
